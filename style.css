@@ -1,0 +1,55 @@
+body{
+    background-color: gold;
+}
+
+h1{ font-size:50px;
+    margin: 0 auto;
+
+    background-color: aliceblue;
+    border-radius: 5px;
+    border : solid brown;
+    padding: 4px;
+    text-align: center;
+}
+
+.reciept {
+    /* need to set a bg color otherwise it renders black */
+    background-color: pink;
+    border: 1px solid black;
+    width: 400px;
+    min-height: 400px;
+    padding: 30px;
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    margin: 0 auto;
+ }
+  
+  .reciept__title,
+  .reciept__address {
+    text-align: center;
+  }
+  
+  .reciept__number {
+    background: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .reciept__items__price {
+    float: right;
+  }
+
+  .save{
+    margin: 0 auto;
+    font-size: 30px;
+    background-color: darkred;
+    color: blanchedalmond;
+    border: 2px pink solid;
+    border-radius: 44px;
+    padding: 15px;
+  }
+  .save:hover{
+    background-color: darkblue;
+  }
