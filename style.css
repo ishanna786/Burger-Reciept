@@ -12,6 +12,12 @@ h1{ font-size:50px;
     text-align: center;
 }
 
+/* Extra wrapper to put reciept in the center without affecting the printing */
+.wrapper {
+  width: 420px; /* extra pixels for safety because reciept div is set to 400px*/
+  margin: 0 auto; /* center this div. shorthand syntax says top+bottom 0 pixels, left+right auto spacing */
+}
+
 .reciept {
     /* need to set a bg color otherwise it renders black */
     background-color: pink;
@@ -21,7 +27,6 @@ h1{ font-size:50px;
     padding: 30px;
     font-family: "Courier New", Courier, monospace;
     text-transform: uppercase;
-    margin: 0 auto;
  }
   
   .reciept__title,
